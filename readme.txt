@@ -4,8 +4,7 @@
  ====================
 
   This program will automatically build and install a compiler and other
-  tools used in the creation of homebrew software for the Sony Playstation 3
-  videogame system.
+  tools used in the creation of homebrew software for the Cell BE.
 
  ==================
   How do I use it?
@@ -26,12 +25,12 @@
 
  2) Add the following to your login script:
 
-  export PS3DEV=/usr/local/ps3dev
-  export PSL1GHT=$PS3DEV
+  export CELLDEV=/usr/local/celldev
+  export PSL1GHT=$CELLDEV
 
-  export PATH=$PATH:$PS3DEV/bin
-  export PATH=$PATH:$PS3DEV/ppu/bin
-  export PATH=$PATH:$PS3DEV/spu/bin
+  export PATH=$PATH:$CELLDEV/bin
+  export PATH=$PATH:$CELLDEV/ppu/bin
+  export PATH=$PATH:$CELLDEV/spu/bin
 
  3) Run the toolchain script:
 
