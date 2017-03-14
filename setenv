@@ -1,0 +1,13 @@
+#!/bin/sh
+
+## Set up the environment.
+export PS3DEV=`pwd`/celldev
+export PSL1GHT=$PS3DEV
+
+## Set up the path.
+export PATH=$PATH:$PS3DEV/bin
+export PATH=$PATH:$PS3DEV/ppu/bin
+export PATH=$PATH:$PS3DEV/spu/bin
+
+## Download libCg.so from https://developer.nvidia.com/cg-toolkit-download
+export LD_LIBRARY_PATH=$PS3DEV/lib64
